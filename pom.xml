@@ -298,21 +298,6 @@
                 <jakarta.tck.platform>web</jakarta.tck.platform>
             </properties>
         </profile>
-        <profile>
-            <id>jakarta-staging</id>
-            <repositories>
-                <repository>
-                    <id>jakarta-releases</id>
-                    <url>https://jakarta.oss.sonatype.org/content/groups/staging/</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>false</enabled>
-                    </snapshots>
-                </repository>
-            </repositories>
-        </profile>
 
         <profile>
             <id>payara-server-remote</id>
